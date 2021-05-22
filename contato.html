@@ -21,6 +21,31 @@
         </nav>
     </header>
 
+    <form action="/active.php" method="post">
+        <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="name">Nome Completo</label>
+        <input type="text" id="in_name">
+        <br>
+        <label for="idade">Idade</label><br>
+        <input type="number" id="in_idade">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" id="in_email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Finalizando</legend>
+            <input type="text" id="estado" placeholder="Estado">
+            <br>
+            <Textarea name="message" id="textarea" placeholder="Mensagem"></Textarea>
+        </fieldset>
+
+        <input type="submit" id="submit" value="Enviar"> 
+        <input type="reset" id="reset" value="Limpar">
+    </fieldset>
+    </form>
+
     <footer id="footer">
         &copy; Copyright 2021 | Desenvolvido por Gustavo Miguel Oliveira
         Biscaro.

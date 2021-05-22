@@ -1,5 +1,8 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Reggae+One&display=swap');
+
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -12,7 +15,7 @@ body {
     font-family: 'Libre Baskerville', serif;
     border: 1px solid #000;
 }
-
+/* INDEX */
 /*menu*/
 #main_unordered_list{
     list-style: none;
@@ -145,6 +148,7 @@ figcaption {
     color: rgb(24, 139, 233);
     font-weight: bolder;
 }
+/* END OF INDEX */
 
 /* footer */
 #footer {
@@ -153,4 +157,119 @@ figcaption {
     background-color: #ccc;
     margin-top: 10%;
     text-align: center;
+}
+
+/* QUEM SOMOS */
+#who_we_are {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-image: url("../_images/papel-de-parede-adesivado-abstrato-fundo-branco.jpg");
+}
+
+#faxada {
+    max-height: 400px;
+    max-width: 500px;
+    border: 1px solid #c6c6c6;
+    filter: blur(1.2px);
+    filter: brightness(2);
+    filter: drop-shadow(2px 2px 5px #000);
+}
+
+#who_we_are p {
+font-size: 1.2em;
+color: #000;
+text-indent: 1%;
+text-align: justify;
+text-shadow: 1px 1px 2px #000;
+}
+
+#citacao {
+ width: 50%;
+ padding: 0 5%;
+ font-weight: bolder;
+ margin: 10px 10px 10px 10px;
+ border-width: 0 2%;
+}
+
+/* Form */
+
+form {
+    margin: 30px 30px 30px 50px;
+    max-width: 40%;
+    max-height: 50%;
+    background-color: #c6c6c6;
+}
+fieldset{
+    max-width: 300px;
+    max-height: 200px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 1px 1px #c1c1c1;
+}
+
+label {
+  font-weight: bolder;
+  font-family: 'Montserrat';
+  margin: 10px;
+  padding: 10px;
+}
+
+#in_name {
+    width: 250px;
+    height: 25px;
+    font-weight: bolder;
+}
+
+#in_idade {
+    width: 100px;
+    height: 25px;
+    font-weight: bolder;
+}
+
+#in_email {
+    width: 250px;
+    height: 25px;
+    font-weight: bolder;
+}
+
+#estado {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+#textarea{
+    width: 250px;
+    height: 50%;
+}
+
+#submit {
+    font-size: 2.3rem;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    background-color: rgb(24, 139, 233);
+    border: 1px solid #000;
+    text-shadow: 2px 2px 2px #fff;
+    box-shadow: 2px 2px 2px #000;
+}
+
+#reset {
+    font-size: 2.3rem;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    background-color: red;
+    border: 1px solid #000;
+    text-shadow: 2px 2px 2px #fff;
+    box-shadow: 2px 2px 2px #000;
+
 }

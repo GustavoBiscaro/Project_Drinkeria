@@ -1,0 +1,20 @@
+﻿.min {
+width: 500px;
+height: 600px; 
+box-shadow: 2px 2px 2px #000;
+}
+
+#ul_gal {
+   padding: 0;
+   margin: 10px 10px 10px 10px;
+}
+
+.li_gal {
+    display: inline-block;
+}
+
+.min:hover {
+    width: 600px;
+    height: 700px;
+    -webkit-transition: all .4s ease-in;
+}
