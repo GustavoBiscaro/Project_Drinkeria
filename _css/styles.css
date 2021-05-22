@@ -199,6 +199,7 @@ form {
     max-width: 40%;
     max-height: 50%;
     background-color: #c6c6c6;
+    border: 1px solid #000;
 }
 fieldset{
     max-width: 300px;
