@@ -1,0 +1,156 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1500px;
+    
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    border: 1px solid #000;
+}
+
+/*menu*/
+#main_unordered_list{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+
+.list_menu{
+    display: inline;
+}
+
+.a_menu{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.a_menu:hover {
+    background-color: rgb(24, 139, 233);
+}
+/*images */
+#logo {
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow:column;
+    padding: 5px;
+    max-width: 220px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller 'Libre Baskerville';
+    padding: 3px;
+    text-align: center;
+    
+}
+.img-article_1 {
+    max-width: 200px;
+    max-height: 150px;
+   
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+/*Sections */
+.juice_drink {
+    background-color: #fff;
+    float: right;
+    text-align: left;
+    font-size: 0.8em;
+    padding: 20px;
+}
+.juice_drink p {
+    margin-top: 10px;
+}
+.tips {
+    font-size: 10px;
+    text-align: justify;
+    float: right;
+    padding: 20px;
+    font-variant: small-caps;
+}
+
+.business {
+    position: relative;
+    font-size: 0.8em;
+    text-align: justify;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    padding: 10px;
+}
+
+.graphic {
+   margin: 10px 10px 10px 10px;
+}
+
+.graphic h1 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.graphic h2 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.graphic p {
+    font-size: 0.8em;
+    
+}
+#small-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.img_graphic {
+   max-width: 150px;
+   max-height: 100px;
+}
+
+.a_graphic {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.a_graphic:hover {
+    background-color: #fff;
+    color: rgb(24, 139, 233);
+    font-weight: bolder;
+}
+
+/* footer */
+#footer {
+    font-family: 'Libre Baskerville', Times, serif;
+    font-size: 1rem;
+    background-color: #ccc;
+    margin-top: 10%;
+    text-align: center;
+}
